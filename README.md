@@ -1,10 +1,8 @@
-# CrapBot
+# Bots
 
-CrapBot is a minecraft bot, that is poorly built.
+Bots are bots, that are poorly built.
 
 ## To do
-
-Move commands to categories so it looks cleaner.
 
 ## Installation
 
@@ -12,7 +10,7 @@ First, you need to install [node](http://nodejs.org/) , you might want to read [
 
 1. Clone the repo
 ```
-git clone https://github.com/Janlxrd/minecraftbot.git
+git clone https://github.com/Enderman1444/bots.git
 ```
 2. Install all packages needed
 ```
