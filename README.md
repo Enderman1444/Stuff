@@ -1,1 +1,21 @@
-# Bots
+Features:
+
+say (owner only)
+come (owner only)
+tpa (owner only)
+kill (owner only)
+a (everyone)
+fight me (everyone)
+use (everyone)
+list (everyone)
+tossall (everyone)
+craft (everyone)
+equip (everyone)
+coords (everyone)
+guard (everyone)
+stopguard (everyone)
+uuid (everyone)
+ping (everyone)
+tps (everyone)
+help (everyone)
+toss (everyone)
