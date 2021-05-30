@@ -49,3 +49,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+And also, check my youtube out. [Here](https://www.youtube.com/channel/UCLA_qIiJpwK8DoQ-oWhptog)
