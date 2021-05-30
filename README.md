@@ -1,6 +1,6 @@
-# Bots
+# Stuff
 
-Bots are bots, that are poorly built.
+Stuff is my stuff, yeah.
 
 ## Installation
 
