@@ -78,6 +78,19 @@ bot.on('chat', (username, message, player) => {
          bot.chat(`/tpaccept`)
 
      }
+       setInterval(() => {
+    setTimeout(() => {
+        bot.look(Math.floor(Math.random() * Math.floor("360")), 0, true, null);
+    }, getRandomInt(4 * 60) * 1000);
+
+    setTimeout(() => {
+        bot.swingArm("left");
+    }, getRandomInt(5 * 60) * 1000);
+
+    bot.setControlState('jump', true)
+    bot.setControlState('jump', false)
+  },
+  getRandomInt(3 * 60) * 1000);
     
      
       if (cmd === `${Prefix}tpa`){
@@ -167,7 +180,6 @@ bot.once('spawn', () => {
     startAt: 14,
     bannedFood: ['spider_eye', 'rotten_flesh', 'pufferfish']
   }
-
   bot.on('chat', (username, message) => {
     if (username === bot.username) return
     if (message !== `${Prefix}come`) return
@@ -186,19 +198,19 @@ bot.once('spawn', () => {
     bot.pathfinder.setGoal(new GoalNear(playerX, playerY, playerZ, RANGE_GOAL))
   })
   mineflayerViewer(bot, { port: 4868, firstPerson: true }) // port is the minecraft server port, if first person is false, you get a bird's-eye view
-  // setInterval(() => {
-  //   setTimeout(() => {
-  //       bot.look(Math.floor(Math.random() * Math.floor("360")), 0, true, null);
-  //   }, getRandomInt(4 * 60) * 1000);
+  setInterval(() => {
+    setTimeout(() => {
+        bot.look(Math.floor(Math.random() * Math.floor("360")), 0, true, null);
+    }, getRandomInt(4 * 60) * 1000);
 
-  //   setTimeout(() => {
-  //       bot.swingArm("left");
-  //   }, getRandomInt(5 * 60) * 1000);
+    setTimeout(() => {
+        bot.swingArm("left");
+    }, getRandomInt(5 * 60) * 1000);
 
-  //   bot.setControlState('jump', true)
-  //   bot.setControlState('jump', false)
-  // },
-  // getRandomInt(3 * 60) * 1000);
+    bot.setControlState('jump', true)
+    bot.setControlState('jump', false)
+  },
+  getRandomInt(3 * 60) * 1000);
 });
 
 bot.on('health', () => {
