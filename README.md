@@ -2,8 +2,6 @@
 
 Bots are bots, that are poorly built.
 
-## To do
-
 ## Installation
 
 First, you need to install [node](http://nodejs.org/) , you might want to read [this](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager)
