@@ -1,21 +1,55 @@
-Features:
+# CrapBot
 
-say (owner only)
-come (owner only)
-tpa (owner only)
-kill (owner only)
-a (everyone)
-fight me (everyone)
-use (everyone)
-list (everyone)
-tossall (everyone)
-craft (everyone)
-equip (everyone)
-coords (everyone)
-guard (everyone)
-stopguard (everyone)
-uuid (everyone)
-ping (everyone)
-tps (everyone)
-help (everyone)
-toss (everyone)
+CrapBot is a minecraft bot, that is poorly built.
+
+## To do
+
+Move commands to categories so it looks cleaner.
+
+## Installation
+
+First, you need to install [node](http://nodejs.org/) , you might want to read [this](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager)
+
+1. Clone the repo
+```
+git clone https://github.com/Janlxrd/minecraftbot.git
+```
+2. Install all packages needed
+```
+npm i
+```
+
+## Usage
+
+Change the stuff in the `.env` file to your liking.
+
+## Features
+
+Note: All commands are case sensitive
+
+* say
+* help
+* a
+* tpa
+* uuid
+* ping
+* tps
+* coords
+* equiparmor
+* kill
+* craft
+* list
+* equip
+* unequip
+* use
+* come
+* fight me
+* guard
+* tossall
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
